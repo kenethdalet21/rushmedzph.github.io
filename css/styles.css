@@ -918,7 +918,25 @@ p {
     line-height: 1.3;
 }
 
-@media (max-width: 768px) {\n    .app-card h3 {\n        font-size: 1rem;\n    }\n}\n\n.app-card p {\n    font-size: 0.875rem;\n    margin-bottom: 20px;\n    line-height: 1.6;\n    flex-grow: 1;\n}\n\n@media (max-width: 768px) {\n    .app-card p {\n        font-size: 0.8rem;\n        margin-bottom: 16px;\n    }\n}
+@media (max-width: 768px) {
+    .app-card h3 {
+        font-size: 1rem;
+    }
+}
+
+.app-card p {
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .app-card p {
+        font-size: 0.8rem;
+        margin-bottom: 16px;
+    }
+}
 
 .app-download-links {
     display: flex;
